@@ -29,7 +29,7 @@ sudo mkdir -p /etc/zabbix/zabbix_agentd.d/
 sudo wget https://raw.githubusercontent.com/grundic/zabbix-disk-performance/master/userparameter_diskstats.conf -O /etc/zabbix/zabbix_agentd.d/userparameter_diskstats.conf
 
 # low level discovery script
-sudo wget https://raw.githubusercontent.com/grundic/zabbix-disk-performance/master/lld-disks.py -O /usr/local/bin/lld-disks.py
+sudo wget https://raw.githubusercontent.com/tahajahangir/zabbix-disk-performance/master/lld-disks.py -O /usr/local/bin/lld-disks.py
 sudo chmod +x /usr/local/bin/lld-disks.py
 ```
 
